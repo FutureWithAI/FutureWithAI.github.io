@@ -1,43 +1,111 @@
-/* General Page Styling */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Header Styling */
+/* Header */
 header {
-    background: #333;
+    background-color: #222;
     color: white;
     padding: 20px;
-    border-radius: 10px;
+    text-align: center;
 }
 
-/* Navigation Menu */
-nav {
-    margin: 20px 0;
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-nav a {
-    text-decoration: none;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
     color: white;
-    background: #007bff;
-    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #007bff, #00c3ff);
+    color: white;
+    animation: fadeIn 2s ease-in;
+}
+
+/* Buttons */
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
     border-radius: 5px;
-    margin: 5px;
-    display: inline-block;
+    transition: 0.3s;
 }
 
-nav a:hover {
-    background: #0056b3;
+button:hover {
+    background-color: #ff3300;
 }
 
-/* Section Styling */
-section {
+/* Blog Cards */
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.blog-card {
     background: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.blog-card h3 {
+    margin-top: 0;
+}
+
+.blog-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
