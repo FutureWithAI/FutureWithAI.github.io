@@ -1,0 +1,9 @@
+/* Fade-in animation */
+section {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+section.fade-in {
+    opacity: 1;
+}
