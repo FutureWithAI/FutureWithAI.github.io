@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AI & Innovation</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ai-tools.html">AI Tools</a></li>
+                <li><a href="what-is-ai.html">What is AI?</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Welcome to AI & Innovation</h1>
+            <p>Discover the latest advancements in Artificial Intelligence.</p>
+            <a href="#explore" class="btn">Explore More</a>
+        </section>
+
+        <section id="explore" class="features">
+            <div class="feature-box">
+                <h2>Latest AI Trends</h2>
+                <p>Stay updated with the most recent developments in AI technology.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Industry Applications</h2>
+                <p>Learn how AI is transforming different sectors.</p>
+            </div>
+            <div class="feature-box">
+                <h2>AI Learning Hub</h2>
+                <p>Find resources to master Artificial Intelligence.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AI & Innovation. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
